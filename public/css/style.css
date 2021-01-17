@@ -1,0 +1,75 @@
+.bannerMain
+{
+	background: black;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wavy
+{
+	position: relative;
+	-webkit-box-reflect: below -36px linear-gradient(transparent, rgba(0,0,0,0.2));
+	width: 100%;
+	text-align: center;
+}
+.wavy span
+{
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	font-size: 4em;
+	padding: 10px;
+	text-transform: uppercase;
+	animation: animate 2s ease-in-out;
+	animation-delay: calc(0.3s * var(--i));
+
+}
+.bannerMain a
+{
+	font-size: 150px;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+@keyframes animate 
+{
+	0%
+	{
+		transform: translateY(0px);
+	}
+	20%
+	{
+		transform: translateY(-40px);
+	}
+	40%,100%
+	{
+		transform: translateY(0px);
+	}
+}
+.firstSlide
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65%;
+	border: 3px solid #fff;
+    border-radius: 20px;
+}
+h1
+{
+	text-align: center;
+    margin: 3%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.separationMain
+{
+	text-align: center;
+	font-size: 65px;
+    margin: 3%;
+
+}
+.separationMain a
+{
+color: black;
+}
