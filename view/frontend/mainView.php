@@ -6,7 +6,7 @@
 		<a href=""><i class="fas fa-chevron-left"></i></a>
 		<div class="firstSlide col-md-6">
 			<div class="wavy">
-				<span style="--i:1;">HTML</span>
+				<span style="--i:1;">HTML baby</span>
 				<span style="--i:2;">CSS</span>
 				<span style="--i:3;">PHP</span>
 				<span style="--i:4;">Js</span>
