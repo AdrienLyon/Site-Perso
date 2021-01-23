@@ -34,6 +34,7 @@
 #topBar a:hover
 {
 	color: 	#808080;
+	text-decoration: none;
 }
 .topInfo
 {
@@ -151,7 +152,7 @@ h1
 .serviceMain h3, .howWorkMain h3, .contactMain h3, .skillMain h3, .projectMain h3
 {
 	text-align: center;
-	font-size: 32px;
+	font-size: 40px;
 	margin-top: 80px;
 	margin-bottom: 20px;
 
@@ -220,7 +221,7 @@ h1
 }
 .sectionTitle ::after, .sectionTitle ::before {
     position: absolute;
-    top: 82%;
+    top: 72%;
     width: 280px;
     height: 1px;
     background-color: #C0C0C0;
@@ -240,12 +241,15 @@ footer
 	text-align: center;
 	width: 100%;
 	background-color: #745c4c;
-	color: #fff;
+	color: #d3c0b4;
 	height: 50px;
 	padding: 15px;
 
 }
-
+.logoCaseFooter, .infoDevFooter, .infoContactFooter, .navFooter
+{
+	padding:20px;
+}
 .infoFooter img
 {
 
@@ -280,7 +284,7 @@ footer
 }
 .infoFooter
 {
-	padding: 50px 5px;
+	padding-top: 20px;
 }
 .projectBlock
 {
@@ -315,4 +319,75 @@ footer
 {
 	font-size: 22px;
 	padding: 15px 0px;
+}
+.socialIconsFooter ul
+{
+	list-style-type: none;
+	padding: 0;
+	line-height: 38px;
+
+}
+.socialIconsFooter
+{
+	font-size: 18px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.socialIconsFooter a
+{
+	color: black;
+	text-decoration: none;
+}
+.socialIconsFooter a:hover
+{
+	color: #fff;
+}
+.socialIconsFooter i
+{
+	
+}
+.infoDevFooter p
+{
+	padding: 10px 70px 10px 0px;
+	line-height: 30px;
+}
+footer i
+{
+	padding-right: 5px;
+}
+.questionName, .questionBlockContact, .questionBlockContent
+{
+	display: flex;
+}
+.contactMain form
+{
+	padding: 40px 150px;
+}
+.contactMain button
+{
+	margin: 10px;
+	background-color: #d3c0b4;
+	border:none;
+	padding: 15px 15px;
+}
+.contactMain button:hover
+{
+	
+	background-color: #745c4c;
+}
+.contactMain  input
+{
+	margin: 10px;
+}
+.contactMain textarea
+{
+	margin: 10px;
+	padding: 12px;
+	width: 100%;
+	height: 200px;
+}
+.formularyMessage i
+{
+	padding-left: 5px;
 }
