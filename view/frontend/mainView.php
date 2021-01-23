@@ -17,7 +17,7 @@
 	</div>
 	<div class="serviceMain">
 		<div class="sectionTitle">
-		<h3>Mes services de développement web </h3>
+		<h3>Mes services web </h3>
 		</div>
 		<div class="serviceBlock container">
 			<div class="design col-md-4">
@@ -128,37 +128,23 @@
 		<div class="sectionTitle">
 		<h3>Contact</h3>
 		</div>
-		<h4>Une question sur un projet web ? Besoin d'un devis personnalisé ?<br> Remplissez le formulaire de contact, réponse sous 48h.</h4>
+		<h4>Un projet web ? Devis personnalisé ?<br> Remplissez le formulaire de contact, réponse sous 48h.</h4>
 		<div class="formularyContact container">
 			<form  method="POST" action="index.php?action=sendQuestion" id="questionForm" class="questionFormulary">
-	    		<div class="questionBlock1" >
+	    		
 		    		<div class="questionName">
-						<label >Votre nom:</label></br>
-						<input name="questionName" type="text" class="form-control"  required>
-					</div>
-					<div class="questionFirstName">
-						<label >Votre code postal:</label></br>
-						<input name="questionPostal" type="text" class="form-control"  required>
-					</div>
-
-						
-				</div>
-				<div class="questionBlock1">
-		    		<div class="questionMail">
-						<label >Votre adresse mail:</label></br>
-						<input name="mail" type="email" class="form-control"  required>
-					</div>
-					<div class="questionPhone">
-						<label >Votre numéro de téléphone:</label></br>
-						<input name="questionPhone" type="text" class="form-control" >
-					</div>
-				</div>
-				<div class="questionContent">
-				    <label>Votre question:</label></br>
-				    <textarea name="questionContent" placeholder="'Décriver le type d'appareil, la marque et la panne constatée'" required></textarea> 
+						<input name="questionName" type="text" class="form-control"  required value="Votre Prénom:">
+						<input name="questionFirstName" type="text" class="form-control"  required value="Votre Nom">
+					</div>										
+					<div class="questionBlockContact">
+						<input name="mail" type="email" class="form-control"  required value="Votre Email">
+						<input name="questionPhone" type="text" class="form-control" value="Votre Téléphone" >
+					</div>	
+				<div class="questionBlockContent">
+				    <textarea name="questionContent" placeholder="Votre message" required ></textarea> 
 				</div>	    		
 		    	<div class="formularyMessage orange">
-		    		<span id="questionMessageName"><button class="btn shadow-lg btn-warning " type="submit">Envoyer</button></span></br>
+		    		<span id="questionMessageName"><button class="btn shadow-lg btn-warning " type="submit">Envoyer <i class="fas fa-share-square"></i></button></span></br>
 		    		<span class="black" id="questionMessage"></span>
 		    	</div>	    		
 	    	</form>

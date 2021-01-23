@@ -21,11 +21,15 @@
                 <div id="topBar" >
                     <div class="topInfo container">
                         <ul class="col-md-6">
-                        <li ><i class="fas fa-user"> </i> Adrien Bitton</li>
-                        <li ><i class="far fa-envelope"></i> adrienbitton@outlook.fr</li>
-                        <li ><i class="fas fa-phone"></i> 06 78 41 34 70</li>
+                            <li ><i class="fas fa-user"> </i> Adrien Bitton</li>
+                            <li ><a href="mailto:adrienbitton@outlook.fr" title="contat par mail"><i class="far fa-envelope"></i> adrienbitton@outlook.fr</a></li>
+                            <li ><i class="fas fa-phone"></i> 06 78 41 34 70</li>
                         </ul>
-                        <span class="col-md-2 socialIcons"><a href="" title="mon profil Github"><i class="fab fa-linkedin"></i></a><a href="" title="mon profil Linkedin"><i class="fab fa-github-square"></i></a> <a href=""title="ma page facebook"><i class="fab fa-facebook-square"></i></a></span>
+                        <div class="col-md-2 socialIcons">
+                            <a href="https://www.github.com/AdrienLyon" target="_blank" title="mon profil Github"><i class="fab fa-github-square"></i></a>
+                            <a href="https://www.linkedin.com/in/adrien-bitton-13bb1a201/" target="_blank" title="mon profil Linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/adrien.weblyon" target="_blank" title="ma page facebook"><i class="fab fa-facebook-square"></i></a>
+                        </div>
                         <span class="col-md-4"><p>Développeur web Freelance à Lyon</p></span>
                     </div>
                 </div>    
@@ -35,13 +39,12 @@
                         </div>
                         <nav class="mainNav offset-md-1 col-md-7 ">
                             <ol>
-                                <li><a class="firstButton" href="#">Accueil</a></li>
-                                <li><a class="otherButton" href="#service">Services</a></li>
-                                <li><a class="otherButton" href="#projects">Réalisations</a></li>
-                                <li><a class="otherButton" href="#skills">Compétences</a></li>
-                                <li><a class="otherButton" href="#contact">Contact</a></li>
-                            </ol>
-                            
+                                <li><a class="firstButton" href="#" title="retour à l'acceuil">Accueil</a></li>
+                                <li><a class="otherButton" href="#service" title="découvrer mes services">Services</a></li>
+                                <li><a class="otherButton" href="#projects" title="mes rélisations / projets">Réalisations</a></li>
+                                <li><a class="otherButton" href="#skills" title="mes compétences web">Compétences</a></li>
+                                <li><a class="otherButton" href="#contact" title="contacter moi">Contact</a></li>
+                            </ol>                           
                         </nav>
                     </div>
                              
@@ -66,11 +69,19 @@
                 </div>
                 <div class="infoDevFooter col-md-3">
                     <h3>Développeur Web Freelance</h3>
-                    <p>Création, intégration et modifications de sites vitrine sur mesure, sur lyon (Rhone 69) et en remote partout en France.</p>
+                    <p>Création, intégration et modifications de sites vitrines sur mesure, sur lyon (Rhone 69) et en remote partout en France.</p>
                 </div>
                 <div class="infoContactFooter col-md-3">
                     <h3>Coordonnées</h3>
-                    <p>Création, intégration et modifications de sites vitrine sur mesure, sur lyon (Rhone 69) et en remote partout en France.</p>
+                    <div class="socialIconsFooter">
+                        <ul>
+                            <li><i class="fas fa-phone"></i> 06 78 41 34 70</li>
+                            <li><a href="mailto:adrienbitton@outlook.fr" title="contat par mail"><i class="far fa-envelope"></i> adrienbitton@outlook.fr</a></li>
+                            <li><a href="https://www.github.com/AdrienLyon" target="_blank" title="mon profil Github"><i class="fab fa-github-square"></i> GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/adrien-bitton-13bb1a201/" target="_blank" title="mon profil Linkedin"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+                            <li><a href="https://www.facebook.com/adrien.weblyon" target="_blank" title="ma page facebook"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="navFooter col-md-3">
                     <nav class="footerNav ">
