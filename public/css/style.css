@@ -148,32 +148,44 @@ h1
 {
 	text-decoration: none;
 }
-.serviceMain h3
+.serviceMain h3, .howWorkMain h3, .contactMain h3, .skillMain h3, .projectMain h3
 {
 	text-align: center;
 	font-size: 32px;
-	margin-top: 100px;
+	margin-top: 80px;
+	margin-bottom: 20px;
 
 }
-.serviceBlock
+.serviceBlock, .howWorkBlock, .contactMain; .skillMain, .projectMain
 {
 	padding:2%;
+
 }
-.serviceBlock h4
+.serviceMain , .howWorkMain , .contactMain , .skillMain , .projectMain 
+{
+	margin-bottom: 80px;
+}
+.serviceBlock h4, .howWorkBlock h4
 {
 	text-align: center;
 	font-size: 22px;
 }
-.serviceBlock p
+.contactMain h4
+{
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+.serviceBlock p , .howWorkBlock p 
 {
 	text-align: center;
 	padding: 7%;
 }
-.creation, .integration, .hebergement
+.design, .responsive, .hebergement , .stepOne, .stepTwo, .stepThree
 {
 	padding: 1%;
 }
-.creation img,.integration img,.hebergement img
+.design img,.responsive img,.hebergement img, .stepOne img, .stepTwo img, .stepThree img, .frontEnd img, .backEnd img, .cmsBlock img
 {
 	display: block;
     margin-left: auto;
@@ -181,12 +193,23 @@ h1
     width: 25%;
     margin-bottom: 10%;
     margin-top: 5%;
-
+}
+ .backEnd img
+{
+	width: 40%;
+}
+.frontEnd img
+{
+	width: 47%;
+}
+.cmsBlock img
+{
+	width: 55%;
 }
 .sectionTitle {
     position: relative;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-align: center;
 }
 .sectionTitle ::before {
@@ -202,4 +225,94 @@ h1
     height: 1px;
     background-color: #C0C0C0;
     content: '';
+}
+footer
+{
+	width: 100%;
+	height: 400px;
+	background-color: #d3c0b4;
+	position: relative;
+}
+.copyright
+{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	background-color: #745c4c;
+	color: #fff;
+	height: 50px;
+	padding: 15px;
+
+}
+
+.infoFooter img
+{
+
+	width: 100%;
+	padding: 15px;
+}
+.footerNav, .footerNav ol
+{
+	padding: 0;
+	margin: 0;
+}
+.footerNav a
+{
+	text-decoration: none;
+	color: black;
+}
+.footerNav li
+{
+	padding: 8px 0px;
+}
+.footerNav a:hover
+{
+	color: #fff;
+}
+
+.footerNav ol
+{
+	list-style-type: none;
+	justify-content: space-around;
+	margin-top: 6%;
+	font-size: 16px;
+}
+.infoFooter
+{
+	padding: 50px 5px;
+}
+.projectBlock
+{
+	border: 1px solid #c0c0c073;
+}
+.projectTitle
+{
+	border-bottom: 1px solid #c0c0c073;
+	padding: 5px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.projectBlock h5
+{
+	font-weight: 600;
+	font-size: 16px;
+	padding: 10px 0px;
+}
+.goal img
+{
+	float: right;
+	width: 20%;
+    margin: 15px;
+}
+.projectTitle a
+{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.projectTitle h4
+{
+	font-size: 22px;
+	padding: 15px 0px;
 }
