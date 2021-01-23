@@ -17,13 +17,35 @@
     </head>
     <body>
         <header >
-           <div class="topHeader container">
-                <div class="topHeaderContact row">
-                    <p class="col-md-2">Tel: 06 78 41 34 70</p>
-                    <p class="col-md-3">Mail: adrienbitton@outlook.fr</p>
-                    <a class="offset-md-5 col-md-2" href="#">Me contacter</a>               
-                </div>
-           </div>
+           
+                <div id="topBar" >
+                    <div class="topInfo container">
+                        <ul class="col-md-6">
+                        <li ><i class="fas fa-user"> </i> Adrien Bitton</li>
+                        <li ><i class="far fa-envelope"></i> adrienbitton@outlook.fr</li>
+                        <li ><i class="fas fa-phone"></i> 06 78 41 34 70</li>
+                        </ul>
+                        <span class="col-md-2 socialIcons"><a href="" title="mon profil Github"><i class="fab fa-linkedin"></i></a><a href="" title="mon profil Linkedin"><i class="fab fa-github-square"></i></a> <a href=""title="ma page facebook"><i class="fab fa-facebook-square"></i></a></span>
+                        <span class="col-md-4"><p>Développeur web Freelance à Lyon</p></span>
+                    </div>
+                </div>    
+                    <div class="topBannerNav container">
+                        <div class="logoCase col-md-4">
+                            <img src="public/images/logo1.jpg" alt="logo-Adrien-Bitton">
+                        </div>
+                        <nav class="mainNav offset-md-2 col-md-6 ">
+                            <ol>
+                                <li><a class="firstButton" href="">Accueil</a></li>
+                                <li><a class="otherButton" href="#service">Services</a></li>
+                                <li><a class="otherButton" href="">A propos</a></li>
+                                <li><a class="otherButton" href="">Contact</a></li>
+                            </ol>
+                            
+                        </nav>
+                    </div>
+                             
+                
+           
             
             
                         
