@@ -33,12 +33,13 @@
                         <div class="logoCase col-md-4">
                             <img src="public/images/logo1.jpg" alt="logo-Adrien-Bitton">
                         </div>
-                        <nav class="mainNav offset-md-2 col-md-6 ">
+                        <nav class="mainNav offset-md-1 col-md-7 ">
                             <ol>
-                                <li><a class="firstButton" href="">Accueil</a></li>
+                                <li><a class="firstButton" href="#">Accueil</a></li>
                                 <li><a class="otherButton" href="#service">Services</a></li>
-                                <li><a class="otherButton" href="">A propos</a></li>
-                                <li><a class="otherButton" href="">Contact</a></li>
+                                <li><a class="otherButton" href="#projects">Réalisations</a></li>
+                                <li><a class="otherButton" href="#skills">Compétences</a></li>
+                                <li><a class="otherButton" href="#contact">Contact</a></li>
                             </ol>
                             
                         </nav>
@@ -58,9 +59,37 @@
             <?= $content?>
         </div>
            
-        <footer >
-           
-        </footer> 
+        <footer>
+            <div class="infoFooter container">
+                <div class="logoCaseFooter col-md-3">
+                    <img src="public/images/logo2.jpg" alt="logo-Adrien-Bitton">
+                </div>
+                <div class="infoDevFooter col-md-3">
+                    <h3>Développeur Web Freelance</h3>
+                    <p>Création, intégration et modifications de sites vitrine sur mesure, sur lyon (Rhone 69) et en remote partout en France.</p>
+                </div>
+                <div class="infoContactFooter col-md-3">
+                    <h3>Coordonnées</h3>
+                    <p>Création, intégration et modifications de sites vitrine sur mesure, sur lyon (Rhone 69) et en remote partout en France.</p>
+                </div>
+                <div class="navFooter col-md-3">
+                    <nav class="footerNav ">
+                        <h3>Navigation</h3>
+                            <ol>
+                                <li><a href="#">Accueil</a></li>
+                                <li><a href="#service">Services</a></li>
+                                <li><a href="#projects">Réalisations</a></li>
+                                <li><a href="#skills">Compétences</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ol>
+                            
+                        </nav>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2021 - www.adrienbittonweblyon.fr - Développeur web Freelance</p>
+            </div>
+        </footer>
 
             <script src="public/js/slider.js"></script>
     </body>
