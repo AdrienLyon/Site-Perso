@@ -9,9 +9,7 @@ try {
         if ($_GET['action'] == 'main') {        
             $frontendController->main();
         } 
-        elseif ($_GET['action'] == 'repair') {        
-            $frontendController->repairCon();
-        }
+        
     }    
     else {
         $frontendController->main();

@@ -1,12 +1,40 @@
-
-
+/*champagne:#FAEBD7
+grey1: #f8f8f8
+grey2:#b3b3b3
+rose perso :#d3c0b4
+Fortuna Gold : #DAA520
+Tidewater Green : #2F4F4F
+*/
+.color1
+{
+	color: #b3b3b3;
+}
+.color2
+{
+	color: #DAA520;
+}
+.color2
+{
+	color: #DAA520;
+}
+.backgroundColorOne
+{
+	background-color: #d3c0b4;
+}
+.backgroundColorTwo
+{
+	background-color: #FAEBD7;
+}
+.backgroundColorThree
+{
+	background-color: #f8f8f8;
+}
+/*-------------------------------------------------------------                  Header                   --------------------------------------------------------------------*/
 #topBar
 {
 	padding-top: 10px;
-    background-color: #f8f8f8;
     box-shadow:inset 0 -1px 3px 1px rgba(0,0,0,.05);
     font-size: 15px;
-    color: 	#C0C0C0;
 }
 #topBar ul
 {
@@ -27,13 +55,9 @@
 	margin-left: 4px;
     margin-right: 4px;
 }
-#topBar a
-{
-	color: 	#C0C0C0;
-}
 #topBar a:hover
 {
-	color: 	#808080;
+	color: 	#745c4c;
 	text-decoration: none;
 }
 .topInfo
@@ -45,17 +69,29 @@
 	font-size: 18px;
 }
 .topBannerNav
-{
-	border-bottom: 1px solid #c0c0c073;
-	padding-bottom: 10px;
+{	
+	background-color: #fff;
+	box-sizing: border-box;
     padding-top: 5px;
     padding-left: 0;
+    right: 0;
+    left: 0;
+    transition: .5s;
+}
+.topBannerBlock
+{
+	border-bottom: 1px solid #c0c0c073;
+	padding-bottom: 20px;
 }
 .logoCase img
 {
 	width: 60%;
 	margin-top: 5%;
 	padding-left: 0;
+}
+.main
+{
+	margin-top: 20px;
 }
 .mainNav ol
 {
@@ -65,29 +101,72 @@
 	margin-top: 6%;
 	font-size: 16px;
 }
-.firstButton 
+.otherButton, .firstButton
 {
 	padding: 18px;
-    background-color: #d3c0b4;
+	color: #b3b3b3;
+}
+.stickyMain
+{
+	margin-top: 180px;
+
+}
+.topBannerBlockhidden
+{
+	border-bottom: 0px;
+}
+.sticky
+{
+	position: fixed;
+	border-bottom: 1px solid #c0c0c073;
+	z-index: 1;
+    top: 0;
+    height: 80px;
+    padding: 0;
+    opacity: 1;
+}
+.sticky img
+{
+	width: 54%;
+}
+.scrollMain
+{
+	padding: 18px;
+    background-color: #745c4c;
     color: #fff;
 }
+.scrollMainNormal
+{
+	padding: 18px;
+	color: #C0C0C0;
+	background-color: #fff;
+}
+.scrollCssServices,.scrollCssProjects,.scrollCssSkills,.scrollCssContact,.scrollCssMain
+{
+	padding: 18px;
+    background-color: #745c4c;
+    color: #fff;
+}
+
 .mainNav a
 {
 	text-decoration: none;
+	transition: .4s;
+
+}
+.mainNav a.active
+{
+	color: #fff;
 }
 .mainNav a:hover
 {
 	color: #fff;
 }
-.otherButton
-{
-	padding: 18px;
-	color: #C0C0C0;
-}
-.otherButton:hover
+
+.otherButton:hover, .firstButton:hover
 {
 	color: #fff;
-	background-color: #d3c0b4;
+	background-color: #745c4c;
 }
 h1
 {
@@ -100,19 +179,34 @@ h1
 {
 	font-weight: 200;
 	font-family: system-ui;
-	font-size: 50px;
+	font-size: 55px;
 }
 .bannerMain
 {
 	width: 100%;
     height: 600px;
-    background-color: #d3c0b4;
+    background-image:url("../images/test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 .resume 
 {
 	text-align: center;
 	padding: 5%;
-    line-height: 30px;
+	line-height: 40px;
+    font-size: 18px;
+    font-family: system-ui;
+}
+.resume a
+{
+	color: #7a9cb9;
+}
+.resume a:hover
+{
+	color: #115fa2;
+	text-decoration: none;
 }
 .resume h3
 {
@@ -124,14 +218,13 @@ h1
 }
 .goldText
 {
-	color: #d3c0b4;
+	color: #d0bfb5;
 	font-weight: 600;
 }
 .bannerSeparation
 {
 	width: 100%;
 	height:180px;
-	background-color: #d3c0b4;
 }
 .bannerSeparation h2
 {
@@ -162,9 +255,13 @@ h1
 	padding:2%;
 
 }
-.serviceMain , .howWorkMain , .contactMain , .skillMain , .projectMain 
+.serviceMain , .howWorkMain  , .skillMain , .projectMain 
 {
 	margin-bottom: 80px;
+}
+.contactMain
+{
+	margin-bottom: 20px;
 }
 .serviceBlock h4, .howWorkBlock h4
 {
@@ -230,9 +327,13 @@ h1
 footer
 {
 	width: 100%;
-	height: 400px;
+	height: 360px;
 	background-color: #d3c0b4;
 	position: relative;
+}
+#mapid 
+{ 
+	height: 180px; 
 }
 .copyright
 {
@@ -282,13 +383,11 @@ footer
 	margin-top: 6%;
 	font-size: 16px;
 }
-.infoFooter
-{
-	padding-top: 20px;
-}
+
 .projectBlock
 {
 	border: 1px solid #c0c0c073;
+	padding: 20px;
 }
 .projectTitle
 {
@@ -303,10 +402,14 @@ footer
 	font-size: 16px;
 	padding: 10px 0px;
 }
+.goal
+{
+	position: relative;
+}
 .goal img
 {
 	float: right;
-	width: 20%;
+	width: 45%;
     margin: 15px;
 }
 .projectTitle a
@@ -314,6 +417,18 @@ footer
 	margin-top: 10px;
     margin-bottom: 10px;
     padding: 20px;
+}
+.visit
+{
+	position: absolute;
+	right: 16px;
+	text-align: center;
+}
+.projectTitle img
+{
+	float: right;
+	width: 5%;
+	margin-right: 18px;
 }
 .projectTitle h4
 {
@@ -343,14 +458,11 @@ footer
 {
 	color: #fff;
 }
-.socialIconsFooter i
-{
-	
-}
+
 .infoDevFooter p
 {
 	padding: 10px 70px 10px 0px;
-	line-height: 30px;
+	line-height: 25px;
 }
 footer i
 {
@@ -390,4 +502,21 @@ footer i
 .formularyMessage i
 {
 	padding-left: 5px;
+}
+#topBtn
+{
+	position: fixed;
+	bottom: 150px;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    font-size: 75px;
+    border: none;
+    cursor: pointer;
+    display: none;
+    color: #745c4c;
+}
+#topBtn i
+{
+	color: #745c4c;
 }
